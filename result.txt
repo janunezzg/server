@@ -1,0 +1,5987 @@
+Initializing Quad Model...
+-------------------------------------
+Catalog:
+  identifiable nodes count: 3181739
+  anonymous nodes count:    0
+  edges count:              17256038
+  label count:              3181724
+  properties count:         3181724
+  distinct labels:          8
+  distinct keys:            1
+  distinct type's:          15
+  equal_from_to_count:      0
+  equal_to_type_count:      0
+  equal_from_type_count:    0
+  equal_from_to_type_count: 0
+-------------------------------------
+MillenniumDB HTTP/WebSocket server listening on http://localhost:1234
+MillenniumDB browser interface is available at http://localhost:4321
+
+To terminate the server, press Ctrl+C
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 3 7dcade7f-4d19-446a-a4d2-c8b4d1d336ec
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5642, reset: 0, results: 5641, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 5641
+Parser duration:    1.13579 ms
+Optimizer duration: 0.116103 ms
+Execution duration: 5.30617 ms
+
+Query received:
+MATCH (pL0)=[ALL TRAILS ?p1 (:isPartOf/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 3 36a7fa16-d494-4b49-b50d-dbf9f8045dfd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, pL0, ?y, (:isPartOf/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.253027 ms
+Optimizer duration: 0.084372 ms
+Execution duration: 0.068113 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 2f1d9dec-2133-4b60-8183-a9478a883879
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.247646 ms
+Optimizer duration: 0.070131 ms
+Execution duration: 0.069292 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 4b7e0c2a-1538-4b5f-8314-2189f32cb73a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.155595 ms
+Optimizer duration: 0.05385 ms
+Execution duration: 0.048783 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 79f4c83f-59f9-441e-8b1a-a8b891d5b52f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.133673 ms
+Optimizer duration: 0.036031 ms
+Execution duration: 0.039601 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 206962c9-9b94-4dba-aa83-88faddb24d9c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.277368 ms
+Optimizer duration: 0.072243 ms
+Execution duration: 0.077862 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 3 4569bca0-3cf3-47d5-a64d-9b9824fe5fae
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.282877 ms
+Optimizer duration: 0.084743 ms
+Execution duration: 0.081492 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 6e8066f8-60be-4183-a34e-e5fb9e09fcd0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.145795 ms
+Optimizer duration: 0.040731 ms
+Execution duration: 0.047332 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:isLocatedIn/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 d980e06d-bc3a-466f-b8ce-6a6d650be5e5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:isLocatedIn/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.149595 ms
+Optimizer duration: 0.050522 ms
+Execution duration: 0.06234 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 e4894ceb-3af2-4e1d-96da-a930b6f159f3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.161735 ms
+Optimizer duration: 0.043421 ms
+Execution duration: 0.041181 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 2 4ba19d51-5303-4607-afda-bb3700d18b87
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.160864 ms
+Optimizer duration: 0.037601 ms
+Execution duration: 0.029421 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 d6235ab4-79f5-4946-a9fd-cb06426937de
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 4, reset: 0, results: 3, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3
+Parser duration:    0.135213 ms
+Optimizer duration: 0.047081 ms
+Execution duration: 0.045971 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 1b017776-ec50-423c-b118-1a9e53ee7d02
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6, reset: 0, results: 5, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 5
+Parser duration:    0.152264 ms
+Optimizer duration: 0.039161 ms
+Execution duration: 0.058231 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 7fbb97fc-926c-4a4b-b76a-da4e667e340b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 657, reset: 0, results: 656, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 656
+Parser duration:    0.218736 ms
+Optimizer duration: 0.053291 ms
+Execution duration: 1.16686 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 2 b9981b10-5834-4bf9-b3e7-762059013ba5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 8, reset: 0, results: 7, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 7
+Parser duration:    0.130323 ms
+Optimizer duration: 0.054972 ms
+Execution duration: 0.056161 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 c199b8d7-0558-43a9-a8fe-cc28690b0d2f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 746, reset: 0, results: 745, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 745
+Parser duration:    0.243706 ms
+Optimizer duration: 0.089043 ms
+Execution duration: 1.54915 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 6f0385be-0bfa-4e1e-96a3-7d6b7e46d0c5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.159994 ms
+Optimizer duration: 0.047142 ms
+Execution duration: 1.71265 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 78dc5709-096e-4634-af5b-7e83b99f87b6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 921, reset: 0, results: 920, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 920
+Parser duration:    0.155035 ms
+Optimizer duration: 0.05817 ms
+Execution duration: 1.40449 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 3 314f98f3-8fd6-4b9f-adcb-a1b1a424591a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 815, reset: 0, results: 814, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 814
+Parser duration:    0.146214 ms
+Optimizer duration: 0.04861 ms
+Execution duration: 1.16717 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 05dee257-0b33-45af-97ab-278030c40f29
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2056, reset: 0, results: 2055, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 2055
+Parser duration:    0.160865 ms
+Optimizer duration: 0.045411 ms
+Execution duration: 2.41478 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 1 622939d9-1d96-485d-8e91-b2245157177e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 18, reset: 0, results: 17, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 17
+Parser duration:    1.64195 ms
+Optimizer duration: 0.048522 ms
+Execution duration: 0.067342 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 44780f01-c8b4-4769-8de1-dee308576984
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1820, reset: 0, results: 1819, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 1819
+Parser duration:    0.139214 ms
+Optimizer duration: 0.039821 ms
+Execution duration: 1.89359 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 0 8ff8ba46-0469-4e6b-aa82-fadfa8846fe5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 71, reset: 0, results: 70, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 70
+Parser duration:    0.153903 ms
+Optimizer duration: 0.04738 ms
+Execution duration: 0.121984 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 3 a9d18435-d25c-4d37-b5e0-544e6b3bfa03
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2081, reset: 0, results: 2080, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 2080
+Parser duration:    0.133964 ms
+Optimizer duration: 0.040781 ms
+Execution duration: 10.1747 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 1 a51ce184-0b7d-40f2-89b0-c0e71d291084
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22180, reset: 0, results: 22179, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 22179
+Parser duration:    0.172915 ms
+Optimizer duration: 0.049841 ms
+Execution duration: 25.6189 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5f313a9c-5ddd-4242-b978-24fb012cdc53
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    1.6258 ms
+Optimizer duration: 0.054821 ms
+Execution duration: 16.1989 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 0 05519d85-03d5-4320-beb6-ced1ad5a06c0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19355, reset: 0, results: 19354, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 19354
+Parser duration:    0.198886 ms
+Optimizer duration: 0.052441 ms
+Execution duration: 18.0595 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 5cdb67c6-0267-46f7-8648-0d17cf510b18
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 21740, reset: 0, results: 21739, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 21739
+Parser duration:    0.170315 ms
+Optimizer duration: 0.054372 ms
+Execution duration: 23.4867 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 25353db6-daa4-4e13-bc20-dfcfeb7d9118
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 326, reset: 0, results: 325, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 325
+Parser duration:    0.181776 ms
+Optimizer duration: 0.06178 ms
+Execution duration: 0.354099 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 1 052343ee-93cb-4bef-9ab5-86a53e57d64d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 10219, reset: 0, results: 10218, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 10218
+Parser duration:    0.147465 ms
+Optimizer duration: 0.043693 ms
+Execution duration: 19.648 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 d2009d98-e1e8-474c-bd68-690435f171f1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 27877, reset: 0, results: 27876, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 27876
+Parser duration:    0.186435 ms
+Optimizer duration: 0.057652 ms
+Execution duration: 34.7368 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 0 aca41f12-c6fb-4afa-b3a4-8205ad206834
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2449, reset: 0, results: 2448, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2448
+Parser duration:    0.207476 ms
+Optimizer duration: 0.056802 ms
+Execution duration: 2.12583 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 2 0ffdd7f1-5bff-47e8-8191-c69aee36013f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 304995, reset: 0, results: 304994, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 304994
+Parser duration:    0.154824 ms
+Optimizer duration: 0.042621 ms
+Execution duration: 470.159 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 0 867d6a54-05cc-4fbf-99ac-de320afa7e82
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 333132, reset: 0, results: 333131, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 333131
+Parser duration:    0.181995 ms
+Optimizer duration: 0.057261 ms
+Execution duration: 540.105 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 6c7363a9-f6f7-4469-ae66-aacf7a972aef
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.220416 ms
+Optimizer duration: 0.081392 ms
+Execution duration: 1.35781 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:isLocatedIn/:isPartOf/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 0 27f6bc77-a3f3-4f74-be23-3518eb5dc503
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:isLocatedIn/:isPartOf/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.194915 ms
+Optimizer duration: 0.063222 ms
+Execution duration: 0.038961 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:replyOf/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 3 54901af3-2889-4eb4-a629-09fde5ae2f97
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:replyOf/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.152075 ms
+Optimizer duration: 0.041741 ms
+Execution duration: 0.033511 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:isLocatedIn/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 b902126b-7498-4ef8-9eee-8b03624b0c90
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:isLocatedIn/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.190286 ms
+Optimizer duration: 0.063791 ms
+Execution duration: 0.044722 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 8be372ce-9396-406a-9c48-113284facfe0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.200545 ms
+Optimizer duration: 0.061413 ms
+Execution duration: 0.044521 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 ea4ca066-5a5b-4139-94d1-2c3c11fc70a2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.215416 ms
+Optimizer duration: 0.077252 ms
+Execution duration: 0.049711 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:replyOf/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 0 cc9c9bce-3d77-4059-9412-cfbafb7913d6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:replyOf/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.135584 ms
+Optimizer duration: 0.047581 ms
+Execution duration: 0.042751 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 144ee23a-57a2-4852-98b9-2604c186cba1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 4, reset: 0, results: 3, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 3
+Parser duration:    0.136534 ms
+Optimizer duration: 0.047011 ms
+Execution duration: 0.035811 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 0e20472f-209c-4311-81a4-1b805de3bb9c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6, reset: 0, results: 5, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 5
+Parser duration:    0.136914 ms
+Optimizer duration: 0.049091 ms
+Execution duration: 0.054232 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 acb3c69d-7562-4290-b278-0b681f82f8e9
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6, reset: 0, results: 5, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 5
+Parser duration:    0.206626 ms
+Optimizer duration: 0.066063 ms
+Execution duration: 0.064512 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 90cc56bc-3da1-4a19-ae13-3d4e2dd50dd5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.137254 ms
+Optimizer duration: 0.050632 ms
+Execution duration: 0.051111 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:replyOf/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5a2acc2e-d1bb-47fa-ba0d-8a8f04352d55
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:replyOf/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.187265 ms
+Optimizer duration: 0.0571 ms
+Execution duration: 0.059253 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 3 db4ce856-b88a-4a55-8260-f3babffe8b08
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.146875 ms
+Optimizer duration: 0.055682 ms
+Execution duration: 2.39921 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:isLocatedIn/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 0 fdcb31e9-605d-483a-a67d-698ed5a06f44
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:isLocatedIn/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 921, reset: 0, results: 920, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 920
+Parser duration:    0.140423 ms
+Optimizer duration: 0.050562 ms
+Execution duration: 1.96001 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:isLocatedIn/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 bced3f45-ab82-4962-9cce-14c80c47ef93
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:isLocatedIn/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 815, reset: 0, results: 814, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 814
+Parser duration:    0.152394 ms
+Optimizer duration: 0.055041 ms
+Execution duration: 1.68513 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 a74c6c11-793f-489b-8d57-4febcaa8dda7
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 11, reset: 0, results: 10, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 10
+Parser duration:    0.163705 ms
+Optimizer duration: 0.053211 ms
+Execution duration: 0.049171 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:likes/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5479f7f0-8bcc-4be5-a793-95376aa79379
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:likes/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 13, reset: 0, results: 12, idx_searches: 19]
+Paths::AllTrails::BFSEnum()
+
+Results: 12
+Parser duration:    0.150255 ms
+Optimizer duration: 0.049921 ms
+Execution duration: 0.120753 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:likes/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 d4f8962d-21ef-422d-8d25-0c658e3cb3a1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:likes/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 18, reset: 0, results: 17, idx_searches: 19]
+Paths::AllTrails::BFSEnum()
+
+Results: 17
+Parser duration:    0.141953 ms
+Optimizer duration: 0.053201 ms
+Execution duration: 0.142064 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 584fc023-5213-459b-adae-206f3960bab1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6041, reset: 0, results: 6040, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 6040
+Parser duration:    0.157995 ms
+Optimizer duration: 0.053801 ms
+Execution duration: 6.47332 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 ccda28ba-c349-4625-abc1-9578a8552042
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 42, reset: 0, results: 41, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 41
+Parser duration:    0.31518 ms
+Optimizer duration: 0.085673 ms
+Execution duration: 0.122834 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:replyOf/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 0 02223d5b-6957-4112-8b6b-be1ae5b868c1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:replyOf/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1081, reset: 0, results: 1080, idx_searches: 5869]
+Paths::AllTrails::BFSEnum()
+
+Results: 1080
+Parser duration:    0.311189 ms
+Optimizer duration: 0.093862 ms
+Execution duration: 6.4114 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:likes/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 1 4d39f5b0-0238-4fb4-a29f-9bd7f8f44557
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:likes/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 67, reset: 0, results: 66, idx_searches: 19]
+Paths::AllTrails::BFSEnum()
+
+Results: 66
+Parser duration:    0.238797 ms
+Optimizer duration: 0.074042 ms
+Execution duration: 0.235277 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:replyOf/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 9c802b2f-e857-4d61-b188-996858b13749
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:replyOf/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2081, reset: 0, results: 2080, idx_searches: 5869]
+Paths::AllTrails::BFSEnum()
+
+Results: 2080
+Parser duration:    0.176454 ms
+Optimizer duration: 0.055492 ms
+Execution duration: 9.26047 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 6daac1dd-4d45-4ead-b16f-727087f8b4fd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 128, reset: 0, results: 127, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 127
+Parser duration:    0.170983 ms
+Optimizer duration: 0.056332 ms
+Execution duration: 0.202465 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 f39819c1-6c0a-4d8e-89a3-e633500b9e32
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 17832, reset: 0, results: 17831, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 17831
+Parser duration:    0.163845 ms
+Optimizer duration: 0.048241 ms
+Execution duration: 40.9543 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 c6dedd85-1506-468a-a6dc-8f6770b8af17
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3058, reset: 0, results: 3057, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 3057
+Parser duration:    0.207246 ms
+Optimizer duration: 0.065382 ms
+Execution duration: 9.82589 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 3 0b5ffba9-dffa-4627-87cc-5f609e951049
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22180, reset: 0, results: 22179, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 22179
+Parser duration:    0.177066 ms
+Optimizer duration: 0.054901 ms
+Execution duration: 51.0679 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 153f613a-a41c-47a3-aecd-fe5a7de2d4a9
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    0.203346 ms
+Optimizer duration: 0.064832 ms
+Execution duration: 10.4763 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 89e3b94b-da73-4768-aadb-09ec6f6c963b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 74897, reset: 0, results: 74896, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 74896
+Parser duration:    0.213806 ms
+Optimizer duration: 0.073092 ms
+Execution duration: 146.197 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 be29b40b-e83e-4492-9110-cd07fddb2256
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 804529, reset: 0, results: 804528, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 804528
+Parser duration:    0.207156 ms
+Optimizer duration: 0.072292 ms
+Execution duration: 1665.06 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 c439b2dc-fe2b-48ed-bb8b-dfd8dfc4ba74
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 264, reset: 0, results: 263, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 263
+Parser duration:    0.212046 ms
+Optimizer duration: 0.065312 ms
+Execution duration: 0.528535 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 b95d6db7-1365-4f41-bb11-b9d05a6c3a44
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 8224, reset: 0, results: 8223, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 8223
+Parser duration:    0.176865 ms
+Optimizer duration: 0.056751 ms
+Execution duration: 14.4694 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 75ff5b9c-b0a2-4d75-ad94-4eabb7afb0cb
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 48099, reset: 0, results: 48098, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 48098
+Parser duration:    0.181236 ms
+Optimizer duration: 0.054341 ms
+Execution duration: 100.719 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 0dfcc400-c27c-40b6-803a-695a478fb96f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 326, reset: 0, results: 325, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 325
+Parser duration:    0.208966 ms
+Optimizer duration: 0.0643 ms
+Execution duration: 0.580196 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:replyOf/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 0 9d59ebb8-e4c6-4553-a792-dcb5bc8a60ce
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:replyOf/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7563, reset: 0, results: 7562, idx_searches: 5869]
+Paths::AllTrails::BFSEnum()
+
+Results: 7562
+Parser duration:    0.180525 ms
+Optimizer duration: 0.048881 ms
+Execution duration: 14.3759 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 2b9a2982-341e-474c-a44f-bf1a0b40a338
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22416, reset: 0, results: 22415, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 22415
+Parser duration:    0.218426 ms
+Optimizer duration: 0.061812 ms
+Execution duration: 54.7959 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 b7f52ab5-60d6-4d9f-96fe-bb1e5d401156
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 712, reset: 0, results: 711, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 711
+Parser duration:    0.211937 ms
+Optimizer duration: 0.074023 ms
+Execution duration: 0.981967 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 0358ad17-8c57-4de1-a2c9-9b2047cf1195
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 27877, reset: 0, results: 27876, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 27876
+Parser duration:    0.168044 ms
+Optimizer duration: 0.054502 ms
+Execution duration: 65.9955 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 1 4702530b-e8a8-4c60-96f1-85a8e1cbf70b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 785341, reset: 0, results: 785340, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 785340
+Parser duration:    0.194875 ms
+Optimizer duration: 0.058432 ms
+Execution duration: 1376.43 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/:hasCreator/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 0 1e197322-e224-4b2e-91e7-f2aab618c35d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/:hasCreator/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3015169, reset: 0, results: 3015168, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 3015168
+Parser duration:    0.268638 ms
+Optimizer duration: 0.086892 ms
+Execution duration: 5971.73 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/:hasCreator/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 3 e9f66e69-51f0-4f20-aacd-c3631522311f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/:hasCreator/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1001, reset: 0, results: 1000, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1000
+Parser duration:    0.257777 ms
+Optimizer duration: 0.094393 ms
+Execution duration: 1.2763 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:likes/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 0 b45c0b82-1310-4bd5-b060-2f4415dd9057
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:likes/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1389, reset: 0, results: 1388, idx_searches: 2450]
+Paths::AllTrails::BFSEnum()
+
+Results: 1388
+Parser duration:    0.301969 ms
+Optimizer duration: 0.081042 ms
+Execution duration: 6.86257 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 3d7e6f2a-8eb5-4ffe-8a2c-4ef8f28db119
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1681, reset: 0, results: 1680, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 1680
+Parser duration:    0.241447 ms
+Optimizer duration: 0.274727 ms
+Execution duration: 1.75222 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 da030949-60ca-41bf-8c08-6304154f8f7a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 60610, reset: 0, results: 60609, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 60609
+Parser duration:    0.219376 ms
+Optimizer duration: 0.068232 ms
+Execution duration: 132.371 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:likes/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 9a30614e-6d5a-48cd-b7f6-d3c71e7af495
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:likes/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2449, reset: 0, results: 2448, idx_searches: 2450]
+Paths::AllTrails::BFSEnum()
+
+Results: 2448
+Parser duration:    0.246176 ms
+Optimizer duration: 0.080072 ms
+Execution duration: 8.3567 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 3a8fd6fd-4236-48fc-b2e0-19908cdf412c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 86065, reset: 0, results: 86064, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 86064
+Parser duration:    0.218615 ms
+Optimizer duration: 0.074271 ms
+Execution duration: 183.087 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 3 cd8f04c1-1748-409c-88bb-34f0878fca8e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 510473, reset: 0, results: 510472, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 510472
+Parser duration:    0.250737 ms
+Optimizer duration: 0.088483 ms
+Execution duration: 1042.66 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:likes/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5806eb47-dbfc-4a83-841b-2794148536c3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:likes/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 199030, reset: 0, results: 199029, idx_searches: 305809]
+Paths::AllTrails::BFSEnum()
+
+Results: 199029
+Parser duration:    0.233176 ms
+Optimizer duration: 0.061992 ms
+Execution duration: 680.844 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:likes/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 e12af955-3e27-4b32-ad90-9989b2cfcd9a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:likes/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 216185, reset: 0, results: 216184, idx_searches: 334052]
+Paths::AllTrails::BFSEnum()
+
+Results: 216184
+Parser duration:    0.210846 ms
+Optimizer duration: 0.069451 ms
+Execution duration: 749.339 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 ba3f76af-4c02-457a-9247-630de3e229aa
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6102, reset: 0, results: 6101, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 6101
+Parser duration:    0.214865 ms
+Optimizer duration: 0.063642 ms
+Execution duration: 5.91825 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:likes/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 1 5129e509-cc76-4f38-a46c-4c5bfacdfd64
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:likes/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 304995, reset: 0, results: 304994, idx_searches: 305809]
+Paths::AllTrails::BFSEnum()
+
+Results: 304994
+Parser duration:    0.189125 ms
+Optimizer duration: 0.062932 ms
+Execution duration: 955.453 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:likes/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 0 4cefa6b7-ca08-422f-874c-b9849bc88350
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:likes/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7062, reset: 0, results: 7061, idx_searches: 2450]
+Paths::AllTrails::BFSEnum()
+
+Results: 7061
+Parser duration:    0.208235 ms
+Optimizer duration: 0.065021 ms
+Execution duration: 12.0814 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 f31b7e97-dea4-49bf-9a1f-56b4936367cc
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7932, reset: 0, results: 7931, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 7931
+Parser duration:    0.203606 ms
+Optimizer duration: 0.061262 ms
+Execution duration: 7.57198 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:likes/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 37efa9dc-290a-4f0f-bd70-d674c97d092b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:likes/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 333132, reset: 0, results: 333131, idx_searches: 334052]
+Paths::AllTrails::BFSEnum()
+
+Results: 333131
+Parser duration:    0.188285 ms
+Optimizer duration: 0.066182 ms
+Execution duration: 1053.7 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/:knows/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 2 bc3f95e5-c6c5-45d8-abef-dc092476c9f4
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/:knows/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9961, reset: 0, results: 9960, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 9960
+Parser duration:    0.190345 ms
+Optimizer duration: 0.066402 ms
+Execution duration: 9.4266 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 0ad888f7-9a4e-413e-948d-0b75f62356b9
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 301598, reset: 0, results: 301597, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 301597
+Parser duration:    0.205465 ms
+Optimizer duration: 0.064872 ms
+Execution duration: 598.772 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 3 df1df89e-53f6-4932-9dfd-cf18d125b54c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 637597, reset: 0, results: 637596, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 637596
+Parser duration:    0.215946 ms
+Optimizer duration: 0.093472 ms
+Execution duration: 1326.34 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 047693e8-b985-4810-a85a-ac2cd114c38e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1188147, reset: 0, results: 1188146, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 1188146
+Parser duration:    0.279949 ms
+Optimizer duration: 0.084092 ms
+Execution duration: 1984.81 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:likes/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 1 20e62f68-0f27-49d6-84c1-b027fc314177
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:likes/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1024551, reset: 0, results: 1024550, idx_searches: 305809]
+Paths::AllTrails::BFSEnum()
+
+Results: 1024550
+Parser duration:    0.250587 ms
+Optimizer duration: 0.072582 ms
+Execution duration: 2459.86 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:likes/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 3 9f245167-0aa3-4938-9e61-db180ac5d3c1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:likes/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1111643, reset: 0, results: 1111642, idx_searches: 334052]
+Paths::AllTrails::BFSEnum()
+
+Results: 1111642
+Parser duration:    0.237926 ms
+Optimizer duration: 0.086443 ms
+Execution duration: 2715.91 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/:knows/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 1 75757a27-3ff7-46e2-9f8c-bdbaee1e26a5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/:knows/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 12902629, reset: 0, results: 12902628, idx_searches: 22994]
+Paths::AllTrails::BFSEnum()
+
+Results: 12902628
+Parser duration:    0.210345 ms
+Optimizer duration: 0.062672 ms
+Execution duration: 26853 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/:knows/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 3 37d0c4f4-b6dc-4638-930b-89cf84069377
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/:knows/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 116816, reset: 0, results: 116815, idx_searches: 327]
+Paths::AllTrails::BFSEnum()
+
+Results: 116815
+Parser duration:    0.253267 ms
+Optimizer duration: 0.079052 ms
+Execution duration: 236.532 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/:hasCreator/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 2 e8b087a2-137d-4ac2-a36a-3e409c918659
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/:hasCreator/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2199612, reset: 0, results: 2199611, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 2199611
+Parser duration:    0.251487 ms
+Optimizer duration: 0.084552 ms
+Execution duration: 4553.47 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/:knows/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 1 93fad2bc-3d7b-411f-ae51-47c8b8ce211c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/:knows/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 16698167, reset: 0, results: 16698166, idx_searches: 28797]
+Paths::AllTrails::BFSEnum()
+
+Results: 16698166
+Parser duration:    0.258727 ms
+Optimizer duration: 0.082233 ms
+Execution duration: 34270.1 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator|(:knows{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 2 9ecff901-79b7-497e-a082-38fa8950b8ab
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator|(:knows/(:knows)?/(:knows)?/(:knows)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.237557 ms
+Optimizer duration: 0.085582 ms
+Execution duration: 0.035541 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator|(:knows{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 3 d1e91ba9-4ac0-4e6f-a30e-6f3bd4f52d09
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator|(:knows/(:knows)?/(:knows)?/(:knows)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.222236 ms
+Optimizer duration: 0.104033 ms
+Execution duration: 0.049491 ms
+
+Query received:
+MATCH (t0)=[ALL TRAILS ?p1 ((:hasType|(:isSubclassOf{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 1 b1102f16-7b42-491b-a2e1-99a83bb127ab
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, t0, ?y, (:hasType|(:isSubclassOf/(:isSubclassOf)?/(:isSubclassOf)?/(:isSubclassOf)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.241096 ms
+Optimizer duration: 0.097583 ms
+Execution duration: 0.046111 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf|(:replyOf{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 3 67e5da61-306e-4c3f-9377-cffdd265abcd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf|(:replyOf/(:replyOf)?/(:replyOf)?/(:replyOf)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.175115 ms
+Optimizer duration: 0.077983 ms
+Execution duration: 0.03642 ms
+
+Query received:
+MATCH (tc0)=[ALL TRAILS ?p1 ((:isSubclassOf|(:isSubclassOf{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 2 8718d8b8-83fc-414f-9d95-9901584b2d22
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, tc0, ?y, (:isSubclassOf|(:isSubclassOf/(:isSubclassOf)?/(:isSubclassOf)?/(:isSubclassOf)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 4, reset: 0, results: 3, idx_searches: 4]
+Paths::AllTrails::BFSEnum()
+
+Results: 3
+Parser duration:    0.301838 ms
+Optimizer duration: 0.110093 ms
+Execution duration: 0.066951 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 ((:containerOf|(:replyOf{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 0 1c81e947-4ae6-4d99-be07-d449fe6116f3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf|(:replyOf/(:replyOf)?/(:replyOf)?/(:replyOf)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.291628 ms
+Optimizer duration: 0.140625 ms
+Execution duration: 0.819513 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember|(:knows{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 3 2ef8412d-9e81-499b-ad1b-c2392c34d9c3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember|(:knows/(:knows)?/(:knows)?/(:knows)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 921, reset: 0, results: 920, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 920
+Parser duration:    0.268667 ms
+Optimizer duration: 0.106213 ms
+Execution duration: 0.640227 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes|(:replyOf{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 1 08b84534-5b9f-4a7e-8c75-8aacbdf43b4d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|(:replyOf/(:replyOf)?/(:replyOf)?/(:replyOf)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    0.302659 ms
+Optimizer duration: 0.111663 ms
+Execution duration: 2.65745 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows|(:knows{1,4})))]=>(?y) RETURN ?p1
+
+Cancellation: 3 e760512d-759a-4bbb-9f42-488c54d51432
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows|(:knows/(:knows)?/(:knows)?/(:knows)?)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 17802632, reset: 0, results: 17802631, idx_searches: 808334]
+Paths::AllTrails::BFSEnum()
+
+Results: 17802631
+Parser duration:    0.209805 ms
+Optimizer duration: 0.080594 ms
+Execution duration: 36432.7 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 ((:containerOf/:hasTag)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 dacea2ba-1dc2-48e9-ac57-282307ddce85
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, ((:containerOf/:hasTag))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5643, reset: 0, results: 5642, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 5642
+Parser duration:    0.165593 ms
+Optimizer duration: 0.051282 ms
+Execution duration: 4.93195 ms
+
+Query received:
+MATCH (pL0)=[ALL TRAILS ?p1 ((:isPartOf/:isPartOf)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 5082b610-96fc-468d-aeea-0cb30710cbd2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, pL0, ?y, ((:isPartOf/:isPartOf))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.225077 ms
+Optimizer duration: 0.062462 ms
+Execution duration: 0.039151 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:hasInterest)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 4657ce60-393b-4bbd-881f-d35b8082bef7
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:hasInterest))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.207687 ms
+Optimizer duration: 0.053871 ms
+Execution duration: 0.039692 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:isLocatedIn)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 430d4b0e-886a-4523-b117-977608b3b280
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:isLocatedIn))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.167165 ms
+Optimizer duration: 0.04939 ms
+Execution duration: 0.034681 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:studyAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 ff20d582-35cc-47e2-91b5-af53cce632ba
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:studyAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.283008 ms
+Optimizer duration: 0.075732 ms
+Execution duration: 0.056061 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:workAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 8d71bb53-acfa-4078-aae0-9a0b1ad93f26
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:workAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.223886 ms
+Optimizer duration: 0.058752 ms
+Execution duration: 0.062661 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:isLocatedIn)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 336aa161-d642-4fc7-9bec-89c839aec469
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:isLocatedIn))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.218486 ms
+Optimizer duration: 0.074293 ms
+Execution duration: 0.070282 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:studyAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 50781900-b155-4e24-ac6c-af8a6624eeb4
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:studyAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.215946 ms
+Optimizer duration: 0.060652 ms
+Execution duration: 0.049291 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 01c9c588-d500-460f-9d94-c8c959378c88
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.212026 ms
+Optimizer duration: 0.055772 ms
+Execution duration: 0.047761 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf/:hasCreator)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 52143670-e5ac-437c-aaf0-20f1450b67c1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf/:hasCreator))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.262767 ms
+Optimizer duration: 0.076312 ms
+Execution duration: 0.083114 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf/:replyOf)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 40779589-d8e4-4213-a171-803a8f9b80c0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf/:replyOf))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.211946 ms
+Optimizer duration: 0.049771 ms
+Execution duration: 0.038352 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:workAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 6259c9c3-3184-4c27-8b18-d464af1ba8ff
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:workAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5, reset: 0, results: 4, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 4
+Parser duration:    0.261588 ms
+Optimizer duration: 0.079672 ms
+Execution duration: 0.063482 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:knows)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 880cccc3-f162-4912-ab17-c4393198bb70
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:knows))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.242218 ms
+Optimizer duration: 0.074302 ms
+Execution duration: 0.059762 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:studyAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 22fdcad4-5e21-46f1-8a64-51262cf1f1a1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:studyAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 658, reset: 0, results: 657, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 657
+Parser duration:    0.249387 ms
+Optimizer duration: 0.064622 ms
+Execution duration: 1.10988 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf/:hasTag)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 38522a5c-ba91-4d96-8e47-502c57d2f85a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf/:hasTag))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.264018 ms
+Optimizer duration: 0.066442 ms
+Execution duration: 0.064102 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:studyAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 458b6216-f5a3-42ae-9750-2621f8a69ad2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:studyAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 747, reset: 0, results: 746, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 746
+Parser duration:    0.258377 ms
+Optimizer duration: 0.067941 ms
+Execution duration: 1.18197 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 ((:containerOf/:hasCreator)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 ad8c6e6f-b271-4f9b-81ca-962a97331c8a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, ((:containerOf/:hasCreator))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1210, reset: 0, results: 1209, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 1209
+Parser duration:    0.276937 ms
+Optimizer duration: 0.072082 ms
+Execution duration: 1.71136 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:isLocatedIn)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 77f9fb19-94ff-4bac-969c-7dae8b2e1b9f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:isLocatedIn))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 922, reset: 0, results: 921, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 921
+Parser duration:    0.200496 ms
+Optimizer duration: 0.058812 ms
+Execution duration: 1.37535 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:isLocatedIn)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 39ea035b-2aec-4614-ab50-b59d17c3deaf
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:isLocatedIn))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 816, reset: 0, results: 815, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 815
+Parser duration:    0.173725 ms
+Optimizer duration: 0.051091 ms
+Execution duration: 1.19894 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:workAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 24d413d9-06cf-4800-8463-b2a18f8824ef
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:workAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2057, reset: 0, results: 2056, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 2056
+Parser duration:    0.203046 ms
+Optimizer duration: 0.070711 ms
+Execution duration: 2.17161 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:likes)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 bd9f289e-3afc-48bb-91a6-31ea5216356e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:likes))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19, reset: 0, results: 18, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 18
+Parser duration:    0.191535 ms
+Optimizer duration: 0.05033 ms
+Execution duration: 0.056421 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:workAt)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 0be828ad-7abc-41fe-ae0e-b492743eaf93
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:workAt))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1821, reset: 0, results: 1820, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 1820
+Parser duration:    0.191704 ms
+Optimizer duration: 0.048752 ms
+Execution duration: 1.92817 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator/:hasInterest)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 0cef0644-fddc-42b7-afdb-c951b9b96f5e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator/:hasInterest))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 72, reset: 0, results: 71, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 71
+Parser duration:    0.164975 ms
+Optimizer duration: 0.052081 ms
+Execution duration: 0.103913 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes/:replyOf)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 f732af30-06d8-45c3-8d57-d0286b7c7be6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes/:replyOf))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2082, reset: 0, results: 2081, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 2081
+Parser duration:    0.183845 ms
+Optimizer duration: 0.060772 ms
+Execution duration: 5.2249 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:knows)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5b5577c6-18ae-4e8d-982f-7089d4746d9e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:knows))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22181, reset: 0, results: 22180, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 22180
+Parser duration:    0.194544 ms
+Optimizer duration: 0.060992 ms
+Execution duration: 27.2825 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes/:hasCreator)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 05d257b8-8ede-4368-885a-0dd5d6cffaea
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes/:hasCreator))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3790, reset: 0, results: 3789, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 3789
+Parser duration:    0.210506 ms
+Optimizer duration: 0.063172 ms
+Execution duration: 7.73474 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:hasInterest)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 50c292f3-f76c-4b2c-8559-1ca1b081019c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:hasInterest))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19356, reset: 0, results: 19355, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 19355
+Parser duration:    0.179905 ms
+Optimizer duration: 0.050721 ms
+Execution duration: 15.7016 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:hasInterest)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 555e53d4-1c56-4241-83f7-9f5630ea04aa
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:hasInterest))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 21741, reset: 0, results: 21740, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 21740
+Parser duration:    0.205566 ms
+Optimizer duration: 0.061451 ms
+Execution duration: 17.4344 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:knows)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 778371b4-2bd2-4915-95c5-84edf0e686d4
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:knows))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327, reset: 0, results: 326, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 326
+Parser duration:    0.214715 ms
+Optimizer duration: 0.057573 ms
+Execution duration: 0.339289 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes/:hasTag)?)]=>(?y) RETURN ?p1
+
+Cancellation: 2 f12bafde-e550-4eb9-b586-237dea7d3528
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes/:hasTag))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 10220, reset: 0, results: 10219, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 10219
+Parser duration:    0.199465 ms
+Optimizer duration: 0.047732 ms
+Execution duration: 12.9239 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:knows)?)]=>(?y) RETURN ?p1
+
+Cancellation: 0 8bca27bc-733d-4194-9ca1-450084eff66f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:knows))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 27878, reset: 0, results: 27877, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 27877
+Parser duration:    0.181325 ms
+Optimizer duration: 0.052091 ms
+Execution duration: 36.4125 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator/:likes)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 8640df4d-7323-4a62-bd8b-c0f906ebf4b3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator/:likes))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2450, reset: 0, results: 2449, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2449
+Parser duration:    0.211686 ms
+Optimizer duration: 0.057952 ms
+Execution duration: 2.10802 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:likes)?)]=>(?y) RETURN ?p1
+
+Cancellation: 3 a697d2eb-7532-43be-8683-34b56ba5ed11
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:likes))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 304996, reset: 0, results: 304995, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 304995
+Parser duration:    0.178645 ms
+Optimizer duration: 0.047871 ms
+Execution duration: 455.318 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember/:likes)?)]=>(?y) RETURN ?p1
+
+Cancellation: 1 a8a136c9-980c-400f-bd7d-0201e549f729
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember/:likes))?)
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 333133, reset: 0, results: 333132, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 333132
+Parser duration:    0.207467 ms
+Optimizer duration: 0.060621 ms
+Execution duration: 517.743 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 e1261bd4-16ea-46ea-acb7-533cbf05ab25
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.223296 ms
+Optimizer duration: 0.080692 ms
+Execution duration: 1.23102 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasTag|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 1 d1d0ffb7-8265-436b-a589-a35b26ffbc3f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasTag|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5642, reset: 0, results: 5641, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 5641
+Parser duration:    0.216117 ms
+Optimizer duration: 0.078802 ms
+Execution duration: 5.93607 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasTag|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 e5be3229-f90d-4485-9a95-294b4e3cb449
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasTag|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5642, reset: 0, results: 5641, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 5641
+Parser duration:    0.194785 ms
+Optimizer duration: 0.070233 ms
+Execution duration: 5.54645 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasTag|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 1 33255938-d6ba-4fad-b03f-04990d8ac261
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasTag|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5642, reset: 0, results: 5641, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 5641
+Parser duration:    0.193785 ms
+Optimizer duration: 0.068642 ms
+Execution duration: 5.66248 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:replyOf|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 3 410b640f-26c2-4894-b231-f86d52c41077
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:replyOf|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.197867 ms
+Optimizer duration: 0.076642 ms
+Execution duration: 1.39291 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:replyOf|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 2 59b53282-e851-493a-9a21-26021621312a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:replyOf|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.182095 ms
+Optimizer duration: 0.067432 ms
+Execution duration: 1.25709 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 3686edda-1d39-439e-a2b8-58ab7c8d9b0e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.184325 ms
+Optimizer duration: 0.068732 ms
+Execution duration: 4.02467 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 3 68995fe6-530e-4a00-b316-4fea3a1b4b77
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1, reset: 0, results: 0, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 0
+Parser duration:    0.188634 ms
+Optimizer duration: 0.070183 ms
+Execution duration: 0.041161 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasCreator|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 1 6d7fcb77-28ee-41a8-aecd-5803ec530d54
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasCreator|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.180135 ms
+Optimizer duration: 0.067842 ms
+Execution duration: 0.046241 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasCreator|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 2ae53f18-bae1-4e87-9b40-a1ecc721c314
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasCreator|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.222976 ms
+Optimizer duration: 0.075362 ms
+Execution duration: 0.047251 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:replyOf|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 2 70657ed5-7023-42ae-811e-b5c9b459740b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:replyOf|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.191985 ms
+Optimizer duration: 0.063442 ms
+Execution duration: 0.043111 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:replyOf|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 1 a52ca03b-a56a-4019-a108-4d4e9488b258
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:replyOf|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.207436 ms
+Optimizer duration: 0.068152 ms
+Execution duration: 0.04154 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:hasInterest|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 6da2a4a0-be1c-4a0c-9b00-6dec01d28ab5
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:hasInterest|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.200396 ms
+Optimizer duration: 0.067172 ms
+Execution duration: 0.042681 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:hasInterest|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 b0fda5ab-8d74-465c-9117-6198f6d3c80b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:hasInterest|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.178985 ms
+Optimizer duration: 0.064622 ms
+Execution duration: 0.038181 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:studyAt|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 0 42a942ce-4885-4a02-9647-6b8f152d0b85
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:studyAt|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.195256 ms
+Optimizer duration: 0.065002 ms
+Execution duration: 0.039031 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasCreator|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 2 0e0b103f-918f-42c4-a32d-bb7aff4f237e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasCreator|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.193566 ms
+Optimizer duration: 0.063491 ms
+Execution duration: 0.039541 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:studyAt|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 7770ed3c-13e5-4b3c-82d1-9f5fa2163fcd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:studyAt|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5, reset: 0, results: 4, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 4
+Parser duration:    0.180865 ms
+Optimizer duration: 0.067862 ms
+Execution duration: 0.041971 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:knows|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 95fa3741-df1c-45aa-9df3-ca1e565e9461
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:knows|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.294528 ms
+Optimizer duration: 0.103083 ms
+Execution duration: 0.081942 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasTag|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 3 1c3961d2-4fc8-434b-b296-50df3c7955e0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasTag|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 8, reset: 0, results: 7, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 7
+Parser duration:    0.248897 ms
+Optimizer duration: 0.078692 ms
+Execution duration: 0.064621 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasTag|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 2 784d9b94-4187-48f4-868e-05cd67cc84a2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasTag|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 8, reset: 0, results: 7, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 7
+Parser duration:    0.251527 ms
+Optimizer duration: 0.075752 ms
+Execution duration: 0.061092 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:knows|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 90075732-8228-45ae-b6b8-1130591c1644
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:knows|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.244167 ms
+Optimizer duration: 0.080863 ms
+Execution duration: 0.055601 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasCreator|:hasTag))]=>(?y) RETURN ?p1
+
+Cancellation: 1 9ca716b4-13a5-49eb-881c-8b415dd42ab0
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasCreator|:hasTag)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.176485 ms
+Optimizer duration: 0.061562 ms
+Execution duration: 0.04998 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasTag|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 2 ee80d82b-64f5-425a-96ea-d36eab40bedc
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasTag|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.181376 ms
+Optimizer duration: 0.057882 ms
+Execution duration: 0.045521 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasCreator|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 0 4590e5d8-195a-4a63-a1b6-98bd7e27dab2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasCreator|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.156024 ms
+Optimizer duration: 0.066882 ms
+Execution duration: 2.29189 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasCreator|:hasTag))]=>(?y) RETURN ?p1
+
+Cancellation: 1 95904adf-56c5-47d8-98b0-6e3a7bac7966
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasCreator|:hasTag)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6850, reset: 0, results: 6849, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 6849
+Parser duration:    0.168884 ms
+Optimizer duration: 0.066642 ms
+Execution duration: 6.44475 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasCreator|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 3 19952f46-d949-46d5-8649-67a68f7c8536
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasCreator|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.188605 ms
+Optimizer duration: 0.072822 ms
+Execution duration: 2.18963 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasCreator|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 0 34e13e26-9138-4559-a71e-6634b7d1df01
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasCreator|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 2417]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.172515 ms
+Optimizer duration: 0.065612 ms
+Execution duration: 2.28693 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:likes|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 941759d4-2cb3-44b0-b46d-5d66dfa928ec
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:likes|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19, reset: 0, results: 18, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 18
+Parser duration:    0.172045 ms
+Optimizer duration: 0.060021 ms
+Execution duration: 0.058752 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:likes|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 7e17429c-7cf1-4f4c-9699-369512d4b367
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:likes|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 21, reset: 0, results: 20, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 20
+Parser duration:    0.158644 ms
+Optimizer duration: 0.063342 ms
+Execution duration: 0.052301 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:knows|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 1 25c602e2-dd6d-4453-bfb3-422b4d0fe7cb
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:knows|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 23, reset: 0, results: 22, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 22
+Parser duration:    0.194615 ms
+Optimizer duration: 0.068742 ms
+Execution duration: 0.064191 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:studyAt|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 bf080929-d85b-4ada-9399-18336d1e5d53
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:studyAt|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2801, reset: 0, results: 2800, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 2800
+Parser duration:    0.161635 ms
+Optimizer duration: 0.062383 ms
+Execution duration: 3.28511 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:studyAt|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 0 79471d57-0268-4a77-bc88-0fbd0798dbfb
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:studyAt|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2476, reset: 0, results: 2475, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 2475
+Parser duration:    0.164394 ms
+Optimizer duration: 0.055711 ms
+Execution duration: 2.88161 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:hasInterest|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 6748247d-ef5a-484d-a7c5-b24aba51f115
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:hasInterest|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 72, reset: 0, results: 71, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 71
+Parser duration:    0.160544 ms
+Optimizer duration: 0.067882 ms
+Execution duration: 0.109913 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:hasInterest|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 f82d2a15-3267-4f03-a535-3b07c3324a91
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:hasInterest|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 74, reset: 0, results: 73, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 73
+Parser duration:    0.155574 ms
+Optimizer duration: 0.059713 ms
+Execution duration: 0.109813 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:knows|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 0 97854961-10d9-48e0-9026-b3a1a4374201
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:knows|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 76, reset: 0, results: 75, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 75
+Parser duration:    0.147624 ms
+Optimizer duration: 0.062852 ms
+Execution duration: 0.121954 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 3 0dc312cc-7143-400e-aab6-57fa1564c1e8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 88, reset: 0, results: 87, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 87
+Parser duration:    0.156694 ms
+Optimizer duration: 0.067192 ms
+Execution duration: 0.126543 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:replyOf|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 1 49655636-92a1-427e-995c-2ef6b22356d8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:replyOf|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2081, reset: 0, results: 2080, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 2080
+Parser duration:    0.166394 ms
+Optimizer duration: 0.060222 ms
+Execution duration: 7.52719 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:replyOf|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 2 d424d1d6-3aac-4d0d-ba50-4c0e6210c699
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:replyOf|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2081, reset: 0, results: 2080, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 2080
+Parser duration:    0.170925 ms
+Optimizer duration: 0.062012 ms
+Execution duration: 7.28808 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:knows|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 0 b6b7f3ce-aacc-433f-80a3-f87a8812c0de
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:knows|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22836, reset: 0, results: 22835, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 22835
+Parser duration:    0.184835 ms
+Optimizer duration: 0.059452 ms
+Execution duration: 27.9895 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasCreator|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 3 b6ac1db9-153b-415a-88d5-f57b6a12a60b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasCreator|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    0.189037 ms
+Optimizer duration: 0.085733 ms
+Execution duration: 10.2028 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasCreator|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 2 5f4c0de9-2936-497f-9e74-3c4d1eb66750
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasCreator|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    0.189465 ms
+Optimizer duration: 0.062052 ms
+Execution duration: 9.99183 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:knows|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 5dd4e456-b6d7-409a-9453-2ca48f1b6fce
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:knows|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 23999, reset: 0, results: 23998, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 23998
+Parser duration:    0.176884 ms
+Optimizer duration: 0.060402 ms
+Execution duration: 18.9934 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:hasInterest|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 429195f7-f880-4b2a-be14-7753f4f9b93b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:hasInterest|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 20011, reset: 0, results: 20010, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 20010
+Parser duration:    0.191935 ms
+Optimizer duration: 0.074232 ms
+Execution duration: 16.5449 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:hasInterest|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 0 ccbcc9e4-4cdf-4afc-a53e-1fa1e7a76826
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:hasInterest|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 21174, reset: 0, results: 21173, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 21173
+Parser duration:    0.198046 ms
+Optimizer duration: 0.073112 ms
+Execution duration: 25.5354 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasCreator|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 1 b2738d44-7548-4148-9caf-394cad1e1516
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasCreator|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5869, reset: 0, results: 5868, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 5868
+Parser duration:    0.192226 ms
+Optimizer duration: 0.070862 ms
+Execution duration: 13.4093 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:knows|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 2 eddeaf7e-1c4c-46ae-9f68-5804572efb2c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:knows|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327, reset: 0, results: 326, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 326
+Parser duration:    0.200126 ms
+Optimizer duration: 0.069473 ms
+Execution duration: 0.32821 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:knows|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 a7294297-d6bc-4a3a-a65c-b48e97aae0fc
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:knows|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327, reset: 0, results: 326, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 326
+Parser duration:    0.165485 ms
+Optimizer duration: 0.058691 ms
+Execution duration: 0.327279 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:knows|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 06603766-ff08-405e-b82e-211033f1635d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:knows|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327, reset: 0, results: 326, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 326
+Parser duration:    0.162274 ms
+Optimizer duration: 0.059632 ms
+Execution duration: 0.323129 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:hasInterest|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 6d1186d5-c1ef-41aa-8f97-fa04c852b15b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:hasInterest|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22485, reset: 0, results: 22484, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 22484
+Parser duration:    0.173204 ms
+Optimizer duration: 0.064692 ms
+Execution duration: 29.3682 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:hasInterest|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 0 5211bb04-eb54-4c76-ba93-e817e035daa1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:hasInterest|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 23795, reset: 0, results: 23794, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 23794
+Parser duration:    0.205246 ms
+Optimizer duration: 0.075593 ms
+Execution duration: 32.5637 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:knows|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 1 910537fa-a7c6-4c4a-9043-61918697a589
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:knows|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 41534, reset: 0, results: 41533, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 41533
+Parser duration:    0.200926 ms
+Optimizer duration: 0.074832 ms
+Execution duration: 56.0839 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasTag|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 2 a5c23345-e237-43d8-9dfb-6c6d36bb57b3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasTag|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 10219, reset: 0, results: 10218, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 10218
+Parser duration:    0.210846 ms
+Optimizer duration: 0.074692 ms
+Execution duration: 15.6138 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasTag|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 f1e27ca3-16ce-4064-8f6a-f9a37b99c0c6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasTag|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 10219, reset: 0, results: 10218, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 10218
+Parser duration:    0.180365 ms
+Optimizer duration: 0.05897 ms
+Execution duration: 15.2595 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasTag|:replyOf))]=>(?y) RETURN ?p1
+
+Cancellation: 3 43917f54-6278-4ab5-9389-b25c3426b22c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasTag|:replyOf)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 12299, reset: 0, results: 12298, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 12298
+Parser duration:    0.198496 ms
+Optimizer duration: 0.067952 ms
+Execution duration: 23.6742 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasCreator|:hasTag))]=>(?y) RETURN ?p1
+
+Cancellation: 2 57911add-6f0a-4946-b013-499c3335728b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasCreator|:hasTag)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 14007, reset: 0, results: 14006, idx_searches: 7577]
+Paths::AllTrails::BFSEnum()
+
+Results: 14006
+Parser duration:    0.191405 ms
+Optimizer duration: 0.068181 ms
+Execution duration: 28.4464 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:knows|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 aa3c6104-4399-42c9-a0af-ff8bce450d4e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:knows|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 28622, reset: 0, results: 28621, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 28621
+Parser duration:    0.196746 ms
+Optimizer duration: 0.071092 ms
+Execution duration: 35.1651 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:knows|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 3 2a8e7e23-4e44-4eef-9e5e-6f66fb7fe6dd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:knows|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 29932, reset: 0, results: 29931, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 29931
+Parser duration:    0.217356 ms
+Optimizer duration: 0.075673 ms
+Execution duration: 38.7073 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:knows|:hasInterest))]=>(?y) RETURN ?p1
+
+Cancellation: 0 0316716c-72a2-4a80-9b76-deb1ba3570ee
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:knows|:hasInterest)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 49616, reset: 0, results: 49615, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 49615
+Parser duration:    0.217497 ms
+Optimizer duration: 0.077592 ms
+Execution duration: 75.0364 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 1 0e0a324f-3aa4-4afd-bde7-42ab9ae2a369
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2450, reset: 0, results: 2449, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2449
+Parser duration:    0.257677 ms
+Optimizer duration: 0.073122 ms
+Execution duration: 2.08832 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:likes|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 6f7a0434-93a6-4ddd-9067-efaed4c4fc6e
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:likes|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2450, reset: 0, results: 2449, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2449
+Parser duration:    0.214556 ms
+Optimizer duration: 0.070342 ms
+Execution duration: 2.12999 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:likes|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 e9461187-84bc-4798-8f4a-17704f9bf189
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:likes|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2450, reset: 0, results: 2449, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2449
+Parser duration:    0.224987 ms
+Optimizer duration: 0.074372 ms
+Execution duration: 2.44672 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:knows|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 2 3e958015-bd10-4bf8-8923-4dae371129f8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:knows|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2774, reset: 0, results: 2773, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2773
+Parser duration:    0.211026 ms
+Optimizer duration: 0.073503 ms
+Execution duration: 2.28634 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:likes|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 198c8792-885a-4cb9-beca-c0bc5c915a7d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:likes|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 305651, reset: 0, results: 305650, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 305650
+Parser duration:    0.217406 ms
+Optimizer duration: 0.070132 ms
+Execution duration: 454.014 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:likes|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 e2022b0a-c381-4df0-b6bc-6f0ccf5b4fcf
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:likes|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 306814, reset: 0, results: 306813, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 306813
+Parser duration:    0.218606 ms
+Optimizer duration: 0.070363 ms
+Execution duration: 461.31 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:knows|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 eb8e9889-82e6-4d43-8eeb-a5aded471b5b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:knows|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327174, reset: 0, results: 327173, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 327173
+Parser duration:    0.218075 ms
+Optimizer duration: 0.067141 ms
+Execution duration: 498.452 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 3 2ba8fb38-0f5a-4297-bcdb-1bfe85370044
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 324349, reset: 0, results: 324348, idx_searches: 1629]
+Paths::AllTrails::BFSEnum()
+
+Results: 324348
+Parser duration:    0.222366 ms
+Optimizer duration: 0.081002 ms
+Execution duration: 494.655 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:likes|:studyAt))]=>(?y) RETURN ?p1
+
+Cancellation: 2 e108b04a-320d-418a-abbb-e8c5c118ac6a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:likes|:studyAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 333877, reset: 0, results: 333876, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 333876
+Parser duration:    0.220126 ms
+Optimizer duration: 0.078852 ms
+Execution duration: 520.743 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:likes|:workAt))]=>(?y) RETURN ?p1
+
+Cancellation: 1 33ae0670-04cb-47b5-a154-ae6e6c7c3f56
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:likes|:workAt)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 335187, reset: 0, results: 335186, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 335186
+Parser duration:    0.210286 ms
+Optimizer duration: 0.076562 ms
+Execution duration: 524.948 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:hasInterest|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 3 d57a9b34-f0d2-4895-a317-de44c843cd4a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:hasInterest|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 354871, reset: 0, results: 354870, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 354870
+Parser duration:    0.226987 ms
+Optimizer duration: 0.081352 ms
+Execution duration: 579.761 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:knows|:likes))]=>(?y) RETURN ?p1
+
+Cancellation: 0 ac11b297-50e2-4514-b437-3ab1e47b7270
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:knows|:likes)))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 361008, reset: 0, results: 361007, idx_searches: 1841]
+Paths::AllTrails::BFSEnum()
+
+Results: 361007
+Parser duration:    0.206067 ms
+Optimizer duration: 0.072713 ms
+Execution duration: 522.068 ms
+
+Query received:
+MATCH (pL0)=[ALL TRAILS ?p1 (:isPartOf/(:isPartOf?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 61cdcf72-0387-45c7-85f3-b34e40156210
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, pL0, ?y, (:isPartOf/(:isPartOf)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.201594 ms
+Optimizer duration: 0.059232 ms
+Execution duration: 0.036501 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:hasInterest?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 1a2bcb16-3b55-4964-8391-f0cad1cc83a1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:hasInterest)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.206756 ms
+Optimizer duration: 0.05427 ms
+Execution duration: 0.039281 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:isLocatedIn?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 020533d6-513d-4afc-acf0-a2a24d3f1a5c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:isLocatedIn)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.195675 ms
+Optimizer duration: 0.058333 ms
+Execution duration: 0.040781 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:studyAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 4ee093ad-df81-4e9d-8c7b-f6501bf567ce
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:studyAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.187665 ms
+Optimizer duration: 0.053051 ms
+Execution duration: 0.038241 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:workAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 8d427abf-d80b-49ce-8212-0cc5dba46c28
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:workAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.199686 ms
+Optimizer duration: 0.053971 ms
+Execution duration: 0.038591 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:isLocatedIn?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 59177468-4da6-4b81-a4c5-8bcec0bdc922
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:isLocatedIn)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.171175 ms
+Optimizer duration: 0.057282 ms
+Execution duration: 0.035061 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:studyAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 f5539d11-a684-4677-ac0f-30fd8d254f54
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:studyAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.188875 ms
+Optimizer duration: 0.05813 ms
+Execution duration: 0.040331 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:isLocatedIn/(:isPartOf?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 72ff8184-ae61-423e-8484-72a0e043ed2a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:isLocatedIn/(:isPartOf)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.185934 ms
+Optimizer duration: 0.05541 ms
+Execution duration: 0.036271 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasCreator?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 b7c8871c-e53b-49d2-9c46-59700f21e3b2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasCreator)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.189525 ms
+Optimizer duration: 0.056031 ms
+Execution duration: 0.038721 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:replyOf?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 6b229bc8-0f32-4dfd-8c1e-1b3d37b94fcc
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:replyOf)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.190555 ms
+Optimizer duration: 0.050131 ms
+Execution duration: 0.036611 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:workAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 2bb69a88-cb86-4248-a53c-5fa5563b20c1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:workAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5, reset: 0, results: 4, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 4
+Parser duration:    0.187266 ms
+Optimizer duration: 0.057562 ms
+Execution duration: 0.042651 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:knows?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 e3068183-6655-4870-b5db-a891c4bfb743
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:knows)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.189045 ms
+Optimizer duration: 0.060722 ms
+Execution duration: 0.044071 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf/(:hasTag?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 d3590c77-6632-4afd-bd00-3ecf53e703ac
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf/(:hasTag)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.190436 ms
+Optimizer duration: 0.050762 ms
+Execution duration: 0.04831 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasTag?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 45d8337e-86fd-4449-9275-be2e0c0b9929
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasTag)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6850, reset: 0, results: 6849, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 6849
+Parser duration:    0.193105 ms
+Optimizer duration: 0.059412 ms
+Execution duration: 5.83129 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:studyAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 b6ce958b-c678-4d9f-af77-a6140593f3fa
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:studyAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1471, reset: 0, results: 1470, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 1470
+Parser duration:    0.186965 ms
+Optimizer duration: 0.054161 ms
+Execution duration: 1.47723 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:likes?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 994a898d-a186-4fd1-9794-a9d82262a9b3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:likes)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19, reset: 0, results: 18, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 18
+Parser duration:    0.187345 ms
+Optimizer duration: 0.063722 ms
+Execution duration: 0.055541 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:studyAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 4e1e1b74-2596-4f53-afd9-a1f5a80913a1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:studyAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1666, reset: 0, results: 1665, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 1665
+Parser duration:    0.184995 ms
+Optimizer duration: 0.057142 ms
+Execution duration: 1.85151 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 (:containerOf/(:hasCreator?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 9118e603-72a8-49c6-bff8-a9d985dc3f62
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, (:containerOf/(:hasCreator)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2417, reset: 0, results: 2416, idx_searches: 1209]
+Paths::AllTrails::BFSEnum()
+
+Results: 2416
+Parser duration:    0.193185 ms
+Optimizer duration: 0.060222 ms
+Execution duration: 2.29619 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:isLocatedIn?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 284d069b-69c4-43e4-a8fe-5c1e07ee70fb
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:isLocatedIn)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1841, reset: 0, results: 1840, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 1840
+Parser duration:    0.179794 ms
+Optimizer duration: 0.058702 ms
+Execution duration: 1.80814 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:isLocatedIn?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 653e106f-8cbc-4f73-99c0-bc2d88f5e37d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:isLocatedIn)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1629, reset: 0, results: 1628, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 1628
+Parser duration:    0.194835 ms
+Optimizer duration: 0.069862 ms
+Execution duration: 1.74644 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:workAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 331c5164-722e-48df-a11c-9e2f6acae323
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:workAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2976, reset: 0, results: 2975, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 2975
+Parser duration:    0.185605 ms
+Optimizer duration: 0.061661 ms
+Execution duration: 2.72825 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:workAt?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 f57ae0af-6eb9-4a53-b339-d6381eeaf080
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:workAt)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2634, reset: 0, results: 2633, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 2633
+Parser duration:    0.181266 ms
+Optimizer duration: 0.052272 ms
+Execution duration: 2.51746 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator/(:hasInterest?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 4f55d722-834d-4383-9712-d397e0243a21
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator/(:hasInterest)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 72, reset: 0, results: 71, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 71
+Parser duration:    0.191835 ms
+Optimizer duration: 0.062862 ms
+Execution duration: 0.109053 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:knows?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 6e4bf5c0-6d02-4b86-8578-cbacab4f8783
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:knows)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22994, reset: 0, results: 22993, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 22993
+Parser duration:    0.184495 ms
+Optimizer duration: 0.049971 ms
+Execution duration: 26.3816 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:hasInterest?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 c31423d5-1644-4090-974f-5a7868684852
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:hasInterest)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 20169, reset: 0, results: 20168, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 20168
+Parser duration:    0.189627 ms
+Optimizer duration: 0.063351 ms
+Execution duration: 16.206 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:replyOf?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 c025ec1b-e954-412e-8464-f047520c111f
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:replyOf)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5869, reset: 0, results: 5868, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 5868
+Parser duration:    0.201795 ms
+Optimizer duration: 0.054802 ms
+Execution duration: 7.00051 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasCreator?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 6db54027-ee85-42ba-8088-5fd8acdd2505
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasCreator)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7577, reset: 0, results: 7576, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 7576
+Parser duration:    0.206345 ms
+Optimizer duration: 0.088823 ms
+Execution duration: 9.47544 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator/(:knows?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 8692988f-8eff-4fad-95e2-d952db933998
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator/(:knows)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 327, reset: 0, results: 326, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 326
+Parser duration:    0.204386 ms
+Optimizer duration: 0.054211 ms
+Execution duration: 0.362769 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:hasInterest?))]=>(?y) RETURN ?p1
+
+Cancellation: 2 1161db29-2a56-4495-85f9-b02b8aa9c79b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:hasInterest)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22660, reset: 0, results: 22659, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 22659
+Parser duration:    0.183675 ms
+Optimizer duration: 0.055881 ms
+Execution duration: 24.4741 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes/(:hasTag?))]=>(?y) RETURN ?p1
+
+Cancellation: 3 035291c9-2c02-4e26-b976-3dc5f07d9488
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes/(:hasTag)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 14007, reset: 0, results: 14006, idx_searches: 3789]
+Paths::AllTrails::BFSEnum()
+
+Results: 14006
+Parser duration:    0.191665 ms
+Optimizer duration: 0.060092 ms
+Execution duration: 14.8875 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember/(:knows?))]=>(?y) RETURN ?p1
+
+Cancellation: 0 827dda68-99d7-4250-bc66-dc2ad5cab45b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember/(:knows)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 28797, reset: 0, results: 28796, idx_searches: 921]
+Paths::AllTrails::BFSEnum()
+
+Results: 28796
+Parser duration:    0.194866 ms
+Optimizer duration: 0.061152 ms
+Execution duration: 38.3895 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 (:knows/(:likes?))]=>(?y) RETURN ?p1
+
+Cancellation: 1 a8cdc3bd-c779-465e-893f-58bf05ba0862
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, (:knows/(:likes)?))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 305809, reset: 0, results: 305808, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 305808
+Parser duration:    0.195045 ms
+Optimizer duration: 0.052772 ms
+Execution duration: 449.456 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 ((:containerOf?)/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 3 ca559ba1-530d-408b-82ea-416e0605b713
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, ((:containerOf)?/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5704, reset: 0, results: 5703, idx_searches: 1210]
+Paths::AllTrails::BFSEnum()
+
+Results: 5703
+Parser duration:    0.215496 ms
+Optimizer duration: 0.066582 ms
+Execution duration: 5.25943 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator?)/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 7860128f-0e93-4775-87bd-ba0f6ac718f7
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator)?/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.207515 ms
+Optimizer duration: 0.059562 ms
+Execution duration: 0.049161 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator?)/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 39411ec5-9efa-46ee-9571-af13b0f24426
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator)?/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.194335 ms
+Optimizer duration: 0.053682 ms
+Execution duration: 0.046831 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator?)/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 ee96081d-a2c6-4dc9-87d8-9d694ca37f88
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator)?/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.213536 ms
+Optimizer duration: 0.054762 ms
+Execution duration: 0.065931 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 a7fa9d8c-d295-43b7-bf94-7ba6c566e7a9
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.196104 ms
+Optimizer duration: 0.065503 ms
+Execution duration: 0.048001 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 b454f63e-e2c5-40a2-b668-e30162d69e3b
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.185985 ms
+Optimizer duration: 0.059421 ms
+Execution duration: 0.037951 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn?)/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 2 cba70b0b-ac5b-4b64-b7c6-2d26e2afb730
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn)?/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.193865 ms
+Optimizer duration: 0.056432 ms
+Execution duration: 0.039541 ms
+
+Query received:
+MATCH (pL0)=[ALL TRAILS ?p1 ((:isPartOf?)/:isPartOf)]=>(?y) RETURN ?p1
+
+Cancellation: 3 63a0cbc6-a3ac-46f2-83f0-c122c0379544
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, pL0, ?y, ((:isPartOf)?/:isPartOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.274597 ms
+Optimizer duration: 0.085464 ms
+Execution duration: 0.051292 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator?)/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 1 566e1ed1-1d54-4290-b0e1-4b350553535d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator)?/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.274827 ms
+Optimizer duration: 0.080752 ms
+Execution duration: 0.062692 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf?)/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 0 b5cd2ca1-e28a-485b-896a-f170696665b4
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf)?/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.276038 ms
+Optimizer duration: 0.080852 ms
+Execution duration: 0.062762 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf?)/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 8f1106bc-3b54-4146-a364-6c9e8c06579c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf)?/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.245737 ms
+Optimizer duration: 0.062222 ms
+Execution duration: 0.064372 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 b1b8ac28-2e6a-4c8e-a0a4-abe0d9208da6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 4, reset: 0, results: 3, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 3
+Parser duration:    0.241506 ms
+Optimizer duration: 0.076103 ms
+Execution duration: 0.056691 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 7856ca59-8ac2-43f7-9667-af8270f0d509
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 6, reset: 0, results: 5, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 5
+Parser duration:    0.423073 ms
+Optimizer duration: 0.075303 ms
+Execution duration: 0.056251 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 ((:replyOf?)/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 0 fa510768-0b54-4ca8-9c32-4e6af62d1544
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, ((:replyOf)?/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 8, reset: 0, results: 7, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 7
+Parser duration:    0.245236 ms
+Optimizer duration: 0.062732 ms
+Execution duration: 0.059943 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 fff1ab57-dfad-4f1c-89e6-6e1c432892b3
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 658, reset: 0, results: 657, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 657
+Parser duration:    0.235547 ms
+Optimizer duration: 0.061562 ms
+Execution duration: 1.19315 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember?)/:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 24dca5e9-53ac-4794-a217-0c6913e65400
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember)?/:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 746, reset: 0, results: 745, idx_searches: 922]
+Paths::AllTrails::BFSEnum()
+
+Results: 745
+Parser duration:    0.241068 ms
+Optimizer duration: 0.074462 ms
+Execution duration: 1.20588 ms
+
+Query received:
+MATCH (f63750)=[ALL TRAILS ?p1 ((:containerOf?)/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 2 bf740548-47e3-47dd-8884-0844df2aa644
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f63750, ?y, ((:containerOf)?/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1209, reset: 0, results: 1208, idx_searches: 1210]
+Paths::AllTrails::BFSEnum()
+
+Results: 1208
+Parser duration:    0.222666 ms
+Optimizer duration: 0.076282 ms
+Execution duration: 1.66422 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember?)/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 1 df9d90d7-00d2-4a61-a80b-155103516056
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember)?/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 921, reset: 0, results: 920, idx_searches: 922]
+Paths::AllTrails::BFSEnum()
+
+Results: 920
+Parser duration:    0.261447 ms
+Optimizer duration: 0.086003 ms
+Execution duration: 1.34721 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 bd557513-4a24-48de-921b-bbc5a18b1309
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 816, reset: 0, results: 815, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 815
+Parser duration:    0.229818 ms
+Optimizer duration: 0.07142 ms
+Execution duration: 1.41064 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember?)/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 c5e93035-9f30-46b0-9d08-7ff72a98e788
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember)?/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2056, reset: 0, results: 2055, idx_searches: 922]
+Paths::AllTrails::BFSEnum()
+
+Results: 2055
+Parser duration:    0.229316 ms
+Optimizer duration: 0.073612 ms
+Execution duration: 2.48706 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 0 f445657d-dae9-4654-8a87-92c70a4971fa
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 18, reset: 0, results: 17, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 17
+Parser duration:    0.426113 ms
+Optimizer duration: 0.068592 ms
+Execution duration: 0.068822 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 a0327ef4-1b78-4372-8ad1-699ec24b54d2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1824, reset: 0, results: 1823, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 1823
+Parser duration:    0.239466 ms
+Optimizer duration: 0.060612 ms
+Execution duration: 2.00342 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 ((:hasModerator?)/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 cbc920dc-c065-477c-99e0-f79e0357fa67
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, ((:hasModerator)?/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 71, reset: 0, results: 70, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 70
+Parser duration:    0.285947 ms
+Optimizer duration: 0.086173 ms
+Execution duration: 0.130683 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes?)/:replyOf)]=>(?y) RETURN ?p1
+
+Cancellation: 3 6d4b25fa-a505-4531-871f-7cc58d7cf397
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes)?/:replyOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2081, reset: 0, results: 2080, idx_searches: 3790]
+Paths::AllTrails::BFSEnum()
+
+Results: 2080
+Parser duration:    0.262818 ms
+Optimizer duration: 0.071502 ms
+Execution duration: 6.4924 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes?)/:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 2 0351b9d8-fb2b-4345-b87d-8a2adafe6ce8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes)?/:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3789, reset: 0, results: 3788, idx_searches: 3790]
+Paths::AllTrails::BFSEnum()
+
+Results: 3788
+Parser duration:    0.259997 ms
+Optimizer duration: 0.080912 ms
+Execution duration: 8.12434 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 26fb36f7-d30c-457a-8796-3dc7f5f613be
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22994, reset: 0, results: 22993, idx_searches: 815]
+Paths::AllTrails::BFSEnum()
+
+Results: 22993
+Parser duration:    0.257337 ms
+Optimizer duration: 0.067051 ms
+Execution duration: 25.7822 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 1 8712e97f-3743-43dc-a291-2b1b724b6dfb
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 19373, reset: 0, results: 19372, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 19372
+Parser duration:    0.255027 ms
+Optimizer duration: 0.080783 ms
+Execution duration: 15.2349 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember?)/:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 3 458297b3-626f-4ba6-bc6c-d16ad494e0bd
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember)?/:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 21740, reset: 0, results: 21739, idx_searches: 922]
+Paths::AllTrails::BFSEnum()
+
+Results: 21739
+Parser duration:    0.269317 ms
+Optimizer duration: 0.088372 ms
+Execution duration: 17.4439 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:hasCreator?)/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 19d5d2ca-9dba-4212-bef7-c055d9f45466
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:hasCreator)?/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 326, reset: 0, results: 325, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 325
+Parser duration:    0.263998 ms
+Optimizer duration: 0.075612 ms
+Execution duration: 0.35641 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 ((:likes?)/:hasTag)]=>(?y) RETURN ?p1
+
+Cancellation: 2 351546bf-6365-4ccb-92bf-710a8fa03986
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, ((:likes)?/:hasTag))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 10219, reset: 0, results: 10218, idx_searches: 3790]
+Paths::AllTrails::BFSEnum()
+
+Results: 10218
+Parser duration:    0.260407 ms
+Optimizer duration: 0.074322 ms
+Execution duration: 12.5996 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 ((:hasMember?)/:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 470d6b6e-da99-4ba9-8fea-5d4fb93d2b08
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, ((:hasMember)?/:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 27877, reset: 0, results: 27876, idx_searches: 922]
+Paths::AllTrails::BFSEnum()
+
+Results: 27876
+Parser duration:    0.252047 ms
+Optimizer duration: 0.078541 ms
+Execution duration: 34.8539 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows?)/:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 3 e22bd705-b7ad-4fb6-951c-8c763c326673
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows)?/:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 308499, reset: 0, results: 308498, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 308498
+Parser duration:    0.249406 ms
+Optimizer duration: 0.072052 ms
+Execution duration: 480.31 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 (:hasCreator|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 36d2d67d-a126-41c0-81c0-0c0d10303272
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, (:hasCreator|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.246168 ms
+Optimizer duration: 0.076412 ms
+Execution duration: 0.053822 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf|:hasCreator)]=>(?y) RETURN ?p1
+
+Cancellation: 1 b30c2ab6-436b-4a22-9554-67ccafbc0e90
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf|:hasCreator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.242345 ms
+Optimizer duration: 0.068291 ms
+Execution duration: 0.054052 ms
+
+Query received:
+MATCH (m1003614)=[ALL TRAILS ?p1 (:replyOf|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 15448219-b41c-41d4-9bfb-4ba675a2b9f2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003614, ?y, (:replyOf|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.239947 ms
+Optimizer duration: 0.068742 ms
+Execution duration: 0.051151 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 (:studyAt|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 1 3bd9d1a9-e10f-49c3-9bfd-8cf815cfe38d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, (:studyAt|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.266298 ms
+Optimizer duration: 0.078193 ms
+Execution duration: 0.092693 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 (:workAt|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 3e018215-595d-47c8-8699-44f3dada8d60
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, (:workAt|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.265818 ms
+Optimizer duration: 0.076172 ms
+Execution duration: 0.081193 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 (:workAt|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 003fd8d2-3b12-46de-9ad3-150259b586fe
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, (:workAt|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.237187 ms
+Optimizer duration: 0.066192 ms
+Execution duration: 0.059743 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 (:studyAt|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 4188388d-acd1-445a-abab-42b5887242cc
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, (:studyAt|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.232226 ms
+Optimizer duration: 0.062432 ms
+Execution duration: 0.059842 ms
+
+Query received:
+MATCH (f0)=[ALL TRAILS ?p1 (:hasModerator|:containerOf)]=>(?y) RETURN ?p1
+
+Cancellation: 2 76ccb71d-8b6d-4e1e-bcf0-0e2f8b581c47
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f0, ?y, (:hasModerator|:containerOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 9, reset: 0, results: 8, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 8
+Parser duration:    0.246167 ms
+Optimizer duration: 0.090583 ms
+Execution duration: 0.068622 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember|:hasModerator)]=>(?y) RETURN ?p1
+
+Cancellation: 3 78b5efc8-2d5f-4702-b1e5-790d175ac328
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember|:hasModerator))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 922, reset: 0, results: 921, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 921
+Parser duration:    0.266627 ms
+Optimizer duration: 0.103124 ms
+Execution duration: 0.652468 ms
+
+Query received:
+MATCH (p23)=[ALL TRAILS ?p1 (:hasInterest|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 0 f0713b4f-b2c4-499e-bb22-9eed83c4faec
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p23, ?y, (:hasInterest|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 84, reset: 0, results: 83, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 83
+Parser duration:    0.260388 ms
+Optimizer duration: 0.076622 ms
+Execution duration: 0.143494 ms
+
+Query received:
+MATCH (f57237)=[ALL TRAILS ?p1 (:hasMember|:containerOf)]=>(?y) RETURN ?p1
+
+Cancellation: 1 58d9015f-c520-43d3-b002-51c09448d758
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, f57237, ?y, (:hasMember|:containerOf))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 1922, reset: 0, results: 1921, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 1921
+Parser duration:    0.223747 ms
+Optimizer duration: 0.071903 ms
+Execution duration: 1.40302 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 (:studyAt|:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 eadd2e09-de7d-4b93-a007-111c7b1faa03
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, (:studyAt|:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 72, reset: 0, results: 71, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 71
+Parser duration:    0.209497 ms
+Optimizer duration: 0.067212 ms
+Execution duration: 0.108643 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 (:workAt|:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 0 80a5401c-4e6e-438f-a021-cf5cedf58936
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, (:workAt|:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 22, reset: 0, results: 21, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 21
+Parser duration:    0.231777 ms
+Optimizer duration: 0.070742 ms
+Execution duration: 0.060131 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 (:workAt|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 153c29a9-34a0-492f-b565-cd4048eb8577
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, (:workAt|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 12, reset: 0, results: 11, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 11
+Parser duration:    0.216777 ms
+Optimizer duration: 0.064112 ms
+Execution duration: 0.061321 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 c8dbe45c-f07b-47d1-abdd-f6da293e37ea
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3790, reset: 0, results: 3789, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3789
+Parser duration:    0.219886 ms
+Optimizer duration: 0.071032 ms
+Execution duration: 3.19438 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 48c7e3d5-e768-4193-83b0-4a5417c7bef2
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3790, reset: 0, results: 3789, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3789
+Parser duration:    0.208186 ms
+Optimizer duration: 0.061092 ms
+Execution duration: 2.67596 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 a13b7141-03ad-4db5-9835-8a424f33f978
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3792, reset: 0, results: 3791, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3791
+Parser duration:    0.216737 ms
+Optimizer duration: 0.060922 ms
+Execution duration: 2.78416 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 1 f666b0ed-bc75-404f-8741-1d4091641534
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 4185, reset: 0, results: 4184, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 4184
+Parser duration:    0.250916 ms
+Optimizer duration: 0.067572 ms
+Execution duration: 3.22987 ms
+
+Query received:
+MATCH (p6405)=[ALL TRAILS ?p1 (:likes|:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 2 5d217523-74cf-4f4c-8902-18a303b2618a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6405, ?y, (:likes|:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3849, reset: 0, results: 3848, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 3848
+Parser duration:    0.243406 ms
+Optimizer duration: 0.076862 ms
+Execution duration: 2.83808 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:hasInterest)]=>(?y) RETURN ?p1
+
+Cancellation: 0 c342b5ff-79f3-42d6-93e2-2a70002daa5c
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:hasInterest))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.329589 ms
+Optimizer duration: 0.157463 ms
+Execution duration: 0.079233 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 3 2fd46972-d0ca-44b1-be67-756970f0761a
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.264077 ms
+Optimizer duration: 0.086323 ms
+Execution duration: 0.063121 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:likes)]=>(?y) RETURN ?p1
+
+Cancellation: 1 510b8a6f-cb1c-4338-acb6-76faf2fb33e4
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:likes))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.379851 ms
+Optimizer duration: 0.089482 ms
+Execution duration: 0.064532 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 9ce1d99f-9b51-453b-836e-6083226cdcb1
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.269218 ms
+Optimizer duration: 0.087211 ms
+Execution duration: 0.065663 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 fdc3f9ce-1775-4a63-b71e-021a6c70556d
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 2, reset: 0, results: 1, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 1
+Parser duration:    0.255858 ms
+Optimizer duration: 0.088532 ms
+Execution duration: 0.06283 ms
+
+Query received:
+MATCH (m1003606)=[ALL TRAILS ?p1 ((:isLocatedIn/:isPartOf)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 6d5efb43-ff1a-47f7-ae96-257289157200
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, m1003606, ?y, ((:isLocatedIn/:isPartOf)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.265717 ms
+Optimizer duration: 0.085514 ms
+Execution duration: 0.054152 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 ((:studyAt/:isLocatedIn)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 2 c0adc49f-d3a3-40df-8da1-0adf11491452
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, ((:studyAt/:isLocatedIn)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.251138 ms
+Optimizer duration: 0.089522 ms
+Execution duration: 0.102983 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 ((:studyAt/:isLocatedIn)|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 ac025a83-655b-47c0-8892-b2f6de125d20
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, ((:studyAt/:isLocatedIn)|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 3, reset: 0, results: 2, idx_searches: 2]
+Paths::AllTrails::BFSEnum()
+
+Results: 2
+Parser duration:    0.257148 ms
+Optimizer duration: 0.090474 ms
+Execution duration: 0.058941 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 ((:studyAt/:isLocatedIn)|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 ac21b1b8-3a87-442b-a80f-9480d13bf5ea
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, ((:studyAt/:isLocatedIn)|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 5, reset: 0, results: 4, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 4
+Parser duration:    0.204555 ms
+Optimizer duration: 0.071772 ms
+Execution duration: 0.044852 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 ((:workAt/:isLocatedIn)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 1 be9f82bb-06b2-4aab-af93-b00b442810f6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, ((:workAt/:isLocatedIn)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.201846 ms
+Optimizer duration: 0.067512 ms
+Execution duration: 0.063892 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 ((:workAt/:isLocatedIn)|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 26e8e627-ff73-4f38-9148-f176db636cb8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, ((:workAt/:isLocatedIn)|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 7]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.201246 ms
+Optimizer duration: 0.069682 ms
+Execution duration: 0.049781 ms
+
+Query received:
+MATCH (p0)=[ALL TRAILS ?p1 ((:studyAt/:isLocatedIn)|:knows)]=>(?y) RETURN ?p1
+
+Cancellation: 2 38d3e02b-7e96-4419-9598-eac2a280bd21
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p0, ?y, ((:studyAt/:isLocatedIn)|:knows))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 7, reset: 0, results: 6, idx_searches: 3]
+Paths::AllTrails::BFSEnum()
+
+Results: 6
+Parser duration:    0.200346 ms
+Optimizer duration: 0.067101 ms
+Execution duration: 0.050521 ms
+
+Query received:
+MATCH (p30)=[ALL TRAILS ?p1 ((:workAt/:isLocatedIn)|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 3 bc72c993-9bae-455c-86be-fd6f65c7ebf8
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p30, ?y, ((:workAt/:isLocatedIn)|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 11, reset: 0, results: 10, idx_searches: 6]
+Paths::AllTrails::BFSEnum()
+
+Results: 10
+Parser duration:    0.197386 ms
+Optimizer duration: 0.066971 ms
+Execution duration: 0.04818 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:studyAt)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 21555e07-3b3a-40cb-bcdc-effea3e72ba9
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:studyAt)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 658, reset: 0, results: 657, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 657
+Parser duration:    0.189296 ms
+Optimizer duration: 0.068272 ms
+Execution duration: 1.18275 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:studyAt)|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 3602a2e2-cc36-44ae-a1d6-7a2555569706
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:studyAt)|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 658, reset: 0, results: 657, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 657
+Parser duration:    0.186015 ms
+Optimizer duration: 0.060922 ms
+Execution duration: 1.08118 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:studyAt)|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 2 8166bb8c-eb89-4438-8ee4-7089ab9c32b6
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:studyAt)|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 661, reset: 0, results: 660, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 660
+Parser duration:    0.188666 ms
+Optimizer duration: 0.060031 ms
+Execution duration: 1.02841 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:isLocatedIn)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 3 7d638450-1b9e-4ebf-8c2c-00f06ad3ad67
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:isLocatedIn)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 816, reset: 0, results: 815, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 815
+Parser duration:    0.196855 ms
+Optimizer duration: 0.068922 ms
+Execution duration: 1.17797 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:isLocatedIn)|:studyAt)]=>(?y) RETURN ?p1
+
+Cancellation: 0 106025b5-63cd-4154-830c-cf2c4a36ed29
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:isLocatedIn)|:studyAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 816, reset: 0, results: 815, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 815
+Parser duration:    0.258877 ms
+Optimizer duration: 0.090913 ms
+Execution duration: 1.22573 ms
+
+Query received:
+MATCH (p6168)=[ALL TRAILS ?p1 ((:knows/:isLocatedIn)|:workAt)]=>(?y) RETURN ?p1
+
+Cancellation: 1 51eda0a0-9b2d-4920-9a62-629d410fc415
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p6168, ?y, ((:knows/:isLocatedIn)|:workAt))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 819, reset: 0, results: 818, idx_searches: 816]
+Paths::AllTrails::BFSEnum()
+
+Results: 818
+Parser duration:    0.248087 ms
+Optimizer duration: 0.087733 ms
+Execution duration: 1.47503 ms
+
+Query received:
+MATCH (p23)=[ALL TRAILS ?p1 ((:hasInterest/:hasType)|:isLocatedIn)]=>(?y) RETURN ?p1
+
+Cancellation: 0 fb3bde4d-234b-463a-8f37-dcec2a3a73cf
+OpReturn(?p1)
+OpMatch()
+  OpBasicGraphPattern()
+    OpPath(ALL_TRAILS, p1, p23, ?y, ((:hasInterest/:hasType)|:isLocatedIn))
+
+Paths::AllTrails::BFSEnum()
+
+[begin: 1, next: 82, reset: 0, results: 81, idx_searches: 82]
+Paths::AllTrails::BFSEnum()
+
+Results: 81
+Parser duration:    0.247456 ms
+Optimizer duration: 0.086732 ms
+Execution duration: 0.36316 ms
+Shutting down server...
