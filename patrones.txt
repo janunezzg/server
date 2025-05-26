@@ -1,12 +1,4 @@
-a.b #34#
-a.b.c #64#
-Aor(A(1,4)) #9#
-(a.b)option #34#
-a.(BorC) #70#
-c.(aOption) #32#
-(cOption).a #32#
-AorB #19#
-(a.b)orC #70#
+(a.b)orC #20#
 (AorB)orC #53#
 a(1,4)orB #8#
 a(0,4)orB #8#
