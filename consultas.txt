@@ -418,7 +418,7 @@ MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:likes)|:studyAt)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows)|:likes)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:likes)|:knows)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})|:hasTag)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})|:hasTag)]=>(?y) RETURN ?p1 
 MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})|:hasCreator)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:knows)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:isLocatedIn)]=>(?y) RETURN ?p1
