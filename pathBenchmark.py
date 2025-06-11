@@ -2381,8 +2381,8 @@ def validate_template_queries(value):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    patterns_file = os.path.join(script_dir, 'consultas2.txt')
-    abstract_patterns_file = os.path.join(script_dir, 'patrones2.txt')
+    patterns_file = os.path.join(script_dir, 'consultas.txt')
+    abstract_patterns_file = os.path.join(script_dir, 'patrones.txt')
     
     parser = argparse.ArgumentParser(
         description='PathBenchmark: Herramienta para generar y ejecutar consultas de caminos en MillenniumDB (MODO SELECTIVO)',
