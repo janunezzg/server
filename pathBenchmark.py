@@ -203,7 +203,7 @@ class PathBenchmark:
                     
                     if nodes:
                         mappings[label] = nodes[:self.nodes_per_label]
-                        print(f"📋 Cargados {len(mappings[label])} nodos para '{label}'")
+                        #print(f"📋 Cargados {len(mappings[label])} nodos para '{label}'")
             
             print(f"✅ Mapeos cargados desde rankings: {len(mappings)} etiquetas")
             return mappings
@@ -1943,8 +1943,6 @@ class PathBenchmark:
                 sys.stdout.flush()
                 time.sleep(0.5)
 
-            print("\n\nIniciando pruebas de rendimiento adicionales...\n")
-
             print("\n" + "=" * 60)
             print(f"Benchmark completado")
             print("=" * 60)
@@ -2403,6 +2401,7 @@ class PathBenchmark:
             
         else:
             print(f"📊 Usando rankings existentes desde: rankings/{self.rankings_scale}/")
+            time.sleep(3.2)
             
             if not self.validate_rankings_exist():
                 print(f"❌ ERROR: No se encontraron rankings válidos en rankings/{self.rankings_scale}/")
