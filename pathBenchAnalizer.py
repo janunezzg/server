@@ -1107,7 +1107,7 @@ class PathBenchmark:
             with open("result.txt", "w") as output_file:
                 server_bin = os.path.join("MillenniumDB", "build", "Release", "bin", "mdb-server")
                 self.server_process = subprocess.Popen(
-                    [server_bin, db_path, "--timeout", "300000000"],
+                    [server_bin, db_path, "--timeout", "35000"],
                     stdout=output_file,
                     stderr=output_file
                 )
@@ -1132,7 +1132,7 @@ class PathBenchmark:
             sys.exit(1)
 
 
-    def run_queries_with_progress(self, timeout=3000000):
+    def run_queries_with_progress(self, timeout=35000):
         # NUEVA SECCIÓN AL INICIO
         if self.use_existing_results:
             print(f"\nUsando resultados existentes de {self.result_file}")
@@ -1994,7 +1994,7 @@ class PathBenchmark:
 
 
 
-    def execute_query_script(self, script_path, total_queries, timeout=300000000):
+    def execute_query_script(self, script_path, total_queries, timeout=35000):
         """
         Nueva función específica para ejecutar el script de consultas
         """
