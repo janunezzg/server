@@ -425,23 +425,23 @@ MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:likes)|:studyAt)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows)|:likes)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:likes)|:knows)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})|:hasTag)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})|:hasCreator)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:knows)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:isLocatedIn)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:studyAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:workAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:hasInterest)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})|:likes)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,3})|:hasTag)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,3})|:hasCreator)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:knows)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:isLocatedIn)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:studyAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:workAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:hasInterest)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})|:likes)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,4})|:hasTag)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,4})|:hasCreator)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:knows)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:isLocatedIn)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:studyAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:workAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:hasInterest)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})|:likes)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,3})|:hasTag)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,3})|:hasCreator)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:knows)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:isLocatedIn)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:studyAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:workAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:hasInterest)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})|:likes)]=>(?y) RETURN ?p1
 
 MATCH (x)=[ALL TRAILS ?p1 ((:isLocatedIn | :studyAt))]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:isLocatedIn | :workAt))]=>(?y) RETURN ?p1
@@ -678,25 +678,25 @@ MATCH (x)=[ALL TRAILS ?p1 (:workAt|(:studyAt|:likes))]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 (:workAt|(:hasInterest|:likes))]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 (:workAt|(:likes|:knows))]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|:isLocatedIn){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:isLocatedIn){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:studyAt){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:hasCreator){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:isLocatedIn){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:isLocatedIn){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|:containerOf){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:hasModerator){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:containerOf){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:hasInterest){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:hasInterest){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:studyAt){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:workAt){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:hasInterest){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:isLocatedIn){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:knows){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasInterest|:knows){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:knows){1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows){1,4})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|:isLocatedIn){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:isLocatedIn){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:studyAt){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:hasCreator){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:isLocatedIn){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:isLocatedIn){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|:containerOf){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:hasModerator){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:containerOf){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:hasInterest){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:hasInterest){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:studyAt){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:workAt){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:hasInterest){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:isLocatedIn){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:knows){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasInterest|:knows){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:knows){1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows){1,3})]=>(?y) RETURN ?p1
 
 MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|:isLocatedIn)?)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:hasCreator)?)]=>(?y) RETURN ?p1
@@ -718,25 +718,25 @@ MATCH (x)=[ALL TRAILS ?p1 ((:likes|:workAt)?)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:likes|:knows)?)]=>(?y) RETURN ?p1
 MATCH (x)=[ALL TRAILS ?p1 ((:likes|:hasInterest)?)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|:isLocatedIn){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:isLocatedIn){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:studyAt){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:hasCreator){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:isLocatedIn){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:isLocatedIn){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|:containerOf){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:hasModerator){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:containerOf){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:hasInterest){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:hasInterest){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:studyAt){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:workAt){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:hasInterest){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:isLocatedIn){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|:knows){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasInterest|:knows){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:knows){0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows){0,4})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|:isLocatedIn){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:isLocatedIn){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:studyAt){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:hasCreator){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|:isLocatedIn){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:isLocatedIn){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|:containerOf){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:hasModerator){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|:containerOf){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:hasInterest){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:hasInterest){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:studyAt){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:workAt){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:hasInterest){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:isLocatedIn){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|:knows){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasInterest|:knows){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:studyAt|:knows){0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:workAt|:knows){0,3})]=>(?y) RETURN ?p1
 
 
 MATCH (x)=[ALL TRAILS ?p1 (:isLocatedIn|(:hasInterest/:hasType))]=>(?y) RETURN ?p1
@@ -798,65 +798,63 @@ MATCH (x)=[ALL TRAILS ?p1 (:knows|(:knows/:likes))]=>(?y) RETURN ?p1
 
 
 
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})/:replyOf)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf{1,4})/:isSubclassOf)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})/:hasCreator)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,4})/:hasTag)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:studyAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:isLocatedIn)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:workAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:knows)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:hasInterest)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,4})/:likes)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,3})/:replyOf)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf{1,3})/:isSubclassOf)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,3})/:hasCreator)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{1,3})/:hasTag)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:studyAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:isLocatedIn)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:workAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:knows)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:hasInterest)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{1,3})/:likes)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,4})/:replyOf)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf{0,4})/:isSubclassOf)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,4})/:hasCreator)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,4})/:hasTag)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:studyAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:isLocatedIn)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:workAt)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:knows)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:hasInterest)]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,4})/:likes)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,3})/:replyOf)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf{0,3})/:isSubclassOf)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,3})/:hasCreator)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf{0,3})/:hasTag)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:studyAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:isLocatedIn)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:workAt)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:knows)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:hasInterest)]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows{0,3})/:likes)]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 (:replyOf/(:replyOf{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf/(:isSubclassOf{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasType/(:isSubclassOf{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:likes/(:replyOf{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:knows/(:knows{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasModerator/(:knows{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasCreator/(:knows{1,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasMember/(:knows{1,4}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:replyOf/(:replyOf{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf/(:isSubclassOf{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasType/(:isSubclassOf{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:likes/(:replyOf{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:knows/(:knows{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasModerator/(:knows{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasCreator/(:knows{1,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasMember/(:knows{1,3}))]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 (:replyOf/(:replyOf{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf/(:isSubclassOf{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasType/(:isSubclassOf{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:likes/(:replyOf{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:knows/(:knows{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasModerator/(:knows{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasCreator/(:knows{0,4}))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:hasMember/(:knows{0,4}))]=>(?y) RETURN ?p1
-
-
-MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|(:knows{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|(:knows{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasType|(:isSubclassOf{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|(:replyOf{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf|(:isSubclassOf{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:containerOf|(:replyOf{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|(:knows{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:likes|(:replyOf{1,4})))]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 ((:knows|(:knows{1,4})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:replyOf/(:replyOf{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf/(:isSubclassOf{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasType/(:isSubclassOf{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:likes/(:replyOf{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:knows/(:knows{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasModerator/(:knows{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasCreator/(:knows{0,3}))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:hasMember/(:knows{0,3}))]=>(?y) RETURN ?p1
 
 
+MATCH (x)=[ALL TRAILS ?p1 ((:hasCreator|(:knows{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasModerator|(:knows{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasType|(:isSubclassOf{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:replyOf|(:replyOf{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:isSubclassOf|(:isSubclassOf{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:containerOf|(:replyOf{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:hasMember|(:knows{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:likes|(:replyOf{1,3})))]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 ((:knows|(:knows{1,3})))]=>(?y) RETURN ?p1
 
-MATCH (x)=[ALL TRAILS ?p1 (:replyOf{1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf{1,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:knows{1,4})]=>(?y) RETURN ?p1
-
-MATCH (x)=[ALL TRAILS ?p1 (:replyOf{0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf{0,4})]=>(?y) RETURN ?p1
-MATCH (x)=[ALL TRAILS ?p1 (:knows{0,4})]=>(?y) RETURN ?p1
 
 
+MATCH (x)=[ALL TRAILS ?p1 (:replyOf{1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf{1,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:knows{1,3})]=>(?y) RETURN ?p1
+
+MATCH (x)=[ALL TRAILS ?p1 (:replyOf{0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:isSubclassOf{0,3})]=>(?y) RETURN ?p1
+MATCH (x)=[ALL TRAILS ?p1 (:knows{0,3})]=>(?y) RETURN ?p1
